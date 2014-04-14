@@ -343,6 +343,7 @@ void print_words(point2* list)
 
 void run_intelengence(point2* list2)
 {
+	//if any one understand this plese let me know
 	point2* p1;
 	point* dict = (point*)malloc(sizeof(point));
 	point* secret = (point*)malloc(sizeof(point));
