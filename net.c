@@ -82,6 +82,30 @@ void addpoint2(point2* list, void* a)
 	p2 = NULL;
 }
 
+int  deletepoint2(point2* list, int index)
+{
+	int i = 0;
+	point2 *p1;
+	p1 = list;
+	while(i < index)
+	{
+		if(p1->next != NULL)
+		{
+			p1 = p1->next;
+			i++;
+		}
+		else
+		{
+			printf("The list is not such big the point %d doesn't exist",i);
+			return 0;
+		}
+	}
+	p1->prev->next = p1->next;
+	p1->next->prev = p1->prev;
+	p1= NULL;
+	return 1;
+}
+
 point* create_point( int a)
 {
 	point* poi;
