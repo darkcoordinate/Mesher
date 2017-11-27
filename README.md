@@ -28,3 +28,4 @@ run that
 ```./game.exe```
 
 ![game play](https://i.imgur.com/MJwRRe9.png)
+![game over](https://i.imgur.com/EI4IFW2.png)
