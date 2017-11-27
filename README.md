@@ -27,4 +27,4 @@ an executable file will be generated name game.exe
 run that
 ```./game.exe```
 
-![game play](https://imgur.com/a/n3wNe)
+![game play](https://i.imgur.com/MJwRRe9.png)
