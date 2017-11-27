@@ -10,10 +10,15 @@ Instruction
 Requirements
 ------------
 OpenGLES 2 
+
 SDL2
+
 gcc  
 
+On Linux
+--------
 To install  OpenGLES 2 on ubuntu/debian
+
 ```sudo apt-get install libgles2-mesa-dev```
 
 To install SDL2 in ubuntu /debian
