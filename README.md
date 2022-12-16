@@ -28,7 +28,7 @@ after that
 just type 
 ```make```
 
-an executable file will be generated name game.exe
+an executable file will be generated named game.exe
 run that
 ```./game.exe```
 
