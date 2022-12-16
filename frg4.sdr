@@ -1,4 +1,4 @@
-#version 100
+//#version 100
 #ifdef GL_ES
 precision mediump float; 
 #endif
@@ -23,7 +23,7 @@ vec2 start = vec2(0,0);
 vec2 tuv = vec2(0,0);
 vec2 chp = vec2(0,0);
 vec2 cur = vec2(0,0);
-vec2 char = vec2(0,0);
+vec2 charr = vec2(0,0);
 
 #define c_a ch(vec2(0x7268BE, 0x8A2000));
 #define c_b ch(vec2(0xF22F22, 0x8BC000));
@@ -109,7 +109,7 @@ void ch(vec2 ch)
 {
 	if(floor(chp) == floor(cur))
 	{
-		char = ch;
+		charr = ch;
 	}
 	cur.x++;
 }
