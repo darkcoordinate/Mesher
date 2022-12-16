@@ -199,7 +199,7 @@ float Cmain( float c )
 		c_g c_a c_m c_e c_spc c_o c_v c_e c_r
 	}
 
-	return c + sprite(char,cuv);
+	return c + sprite(charr,cuv);
 
 	}
 	else
