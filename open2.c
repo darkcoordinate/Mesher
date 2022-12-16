@@ -292,6 +292,9 @@ int loopFunc(myData *data) {
 		if (event.type == SDL_MOUSEMOTION){
 			mousefn(event.motion.x,event.motion.y);
 		}
+		if(event.type == SDL_MOUSEBUTTONDOWN){
+			Init();
+		}
 		if(event.type == SDL_KEYDOWN){
 			
 			switch(event.key.keysym.sym){
